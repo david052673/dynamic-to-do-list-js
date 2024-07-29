@@ -4,7 +4,7 @@ function callback() {
     const taskInput=document.getElementById(id='task-input')
     const taskList= document.getElementById('task-list')
     function addTask(
-        const taskText =const taskInput.value
+        const taskText =const taskInput.value.trim
     ) {
         if (taskText="") {
             alert(Please enter a task)
