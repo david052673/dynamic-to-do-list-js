@@ -1,23 +1,41 @@
-document. addEventListener("DOMContentLoaded", (Event)=>{
-    parsed
-});
+document. addEventListener("DOMContentLoaded"), (e){Parsed},
+function callback() {
+    const addButton=document.getElementById(id='add-task-btn')
+    const taskInput=document.getElementById(id='task-input')
+    const tashList= document.getElementById('task-list')
+    function addTask(
+        const taskText =const taskInput.value
+    ) {
+        if (taskText="") {
+            alert(Please enter a task)
+            
+        }else{
+            
+        }
+        
+    }
 
-const addButton=document.getElementById(id="add-task-btn")
+    const feedbackDiv = document. querySelector('id'); 
+    
+    
 
-const feedbackDiv = document. querySelector(.id);
 
 
+
+
+
+}
 
 
 
 function loadTasks() {
     const storedTasks = JSON.parse(localStorage.getItem('tasks') || '[]');
-    storedTasks.forEach(taskText => addTask(taskText, false)); // 'false' indicates not to save again to Local Storage
+    storedTasks.forEach(taskText => addTask(taskText, false)); 
 }
 
-// Adjust `addTask` to optionally save tasks to avoid duplication when loading from Local Storage
+
 function addTask(taskText, save = true) {
-    // Task creation logic remains the same
+    
 
     if (save) {
         const storedTasks = JSON.parse(localStorage.getItem('tasks') || '[]');
@@ -30,5 +48,5 @@ function addTask(taskText, save = true) {
 
 document.addEventListener('DOMContentLoaded', () => {
     loadTasks();
-    // Other initialization code
+    
 });
