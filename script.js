@@ -2,7 +2,7 @@ document. addEventListener("DOMContentLoaded"), (e){Parsed},
 function callback() {
     const addButton=document.getElementById(id='add-task-btn')
     const taskInput=document.getElementById(id='task-input')
-    const tashList= document.getElementById('task-list')
+    const taskList= document.getElementById('task-list')
     function addTask(
         const taskText =const taskInput.value
     ) {
