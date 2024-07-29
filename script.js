@@ -1,13 +1,13 @@
-document. addEventListener("DOMContentLoaded"), (e){Parsed},
+document. addEventListener("DOMContentLoaded"), (e),{Parsed},
 function callback() {
-    const addButton=document.getElementById(id='add-task-btn')
-    const taskInput=document.getElementById(id='task-input')
-    const taskList= document.getElementById('task-list')
+    const addButton=document.getElementById(id='add-task-btn');
+    const taskInput=document.getElementById(id='task-input');
+    const taskList= document.getElementById('task-list');
     function addTask(
-         taskText = taskInput.value.trim
+         taskText = taskInput.value.trim()
     ) {
         if (taskText="") {
-            alert(Enter a task)
+            alert(Enter a task);
             
         }else{
             
