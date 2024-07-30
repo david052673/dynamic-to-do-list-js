@@ -47,8 +47,20 @@ function callback() {
 
     )
     taskInput.addEventListener('keypress',
+        function(){
+            if (e.key==="Enter"){
+                (addTask)
+            }
+        }
 
     )
+    Document.addEventListener('DOMContentLoaded',
+        function callback(){
+            (addTask)
+
+        }
+    )
+    
     const feedbackDiv = document. querySelector('id'); 
     
     
