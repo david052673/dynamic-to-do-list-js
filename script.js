@@ -13,19 +13,42 @@ function callback() {
             const ul = document.querySelector("ul"); 
             const li = document.createElement("li");
             li.textContent = "taskTest";
-            ul.appendChild(li);
+            taskList.appendChild(li);
             
             const newbutton =document.createElement("button");
             const div = document.getElementById("todo-app");
             newbutton.textContent="Remove"
-            div.appendChild (newbutton);
+            li.appendChild (newbutton);
             newbutton. className ='remove-btn'
+            newbutton. addEventListener('onclick',
+                function remove() {
+                    var element = document.getElementsByClassName("remove-btn");
+                    element.remove();
+                  }
+                  
+            );
+            taskInput. addEventListener('click',
+              function clear() {
+                taskInput.value=""
+              }
+            );
 
 
         }
         
     }
 
+  
+    
+    addButton. addEventListener('click',
+        function click(addTask){
+
+        }
+
+    )
+    taskInput.addEventListener('keypress',
+        
+    )
     const feedbackDiv = document. querySelector('id'); 
     
     
