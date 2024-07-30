@@ -40,12 +40,12 @@ function callback() {
 
   
     
-    addButton. addEventListener('click',
+    addButton. addEventListener('clicked',
         function click(addTask){
 
         }
 
-    )
+    );
     taskInput.addEventListener('keypress',
         function(){
             if (event.key==="Enter"){
@@ -53,13 +53,13 @@ function callback() {
             }
         }
 
-    )
+    );
     Document.addEventListener('DOMContentLoaded',
         function callback(){
             (addTask)
 
         }
-    )
+    );
     
     const feedbackDiv = document. querySelector('id'); 
     
